@@ -2,6 +2,7 @@
 \usepackage[UTF8]{ctex}
 \usepackage{xeCJK}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{lettrine}
 \usepackage{shapepar}
 \usepackage{enumitem}
@@ -41,5 +42,37 @@ Pressure sensors Series 41X, Keller AG
 \begin{enumerate}
     \item 压力传感器为美国 OMEGA 公司生产的  PX409 型,测量范围±776mmHg,精度 0.6\%。
     \item 流量传感器选用  德国 SONOTEC 公司的 SONOFLOW-CO.56/120 型夹式流量计,测量范围 0L/min~12L/min,精度±2\%。
+\end{enumerate}
+
+\subsection{脉动流血泵叶轮调控关键技术研究}
+\subsubsection{动脉顺应性室结构设计}
+人体动脉包含大动脉以及众多的动脉分支,其本质为具有一定弹性的管道。为了模拟动脉的顺应性,忽略动脉的分布特性,将动脉系统集总化并视为一个密闭的弹性腔。
+利用气体的可压缩性,将顺应性室设计成一个气液共存的密闭圆柱形容器,容器上部分为空气层,下部分为充盈的液体,如图所示。容器材料为透明亚克力,可以明显地观测气液交界面。
+顺应性室底部有入口和出口两个接口,分别与动脉管道和阻尼阀相连。顺应性室顶部与气阀连接,通过调节气阀改变空气容积,进而改变空气的弹性,模拟动脉不同的顺应性值。
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.40\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/顺应性示意图.png}
+        \caption{顺应性示意图}
+        \label{fig:compliance_diagram}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/顺应性实物图.png}
+        \caption{顺应性实物图}
+        \label{fig:compliance_real}
+    \end{subfigure}
+    \caption{顺应性室的示意图和实物图}
+\end{figure}
+
+
+\subsection{Fontan循环腔肺辅助装置的血流动力学自适应控制及生理特征评估}
+\begin{enumerate}
+    \item 流量传感器(Transonic Systems, Ithaca, NY,USA)
+    \item 压力传感器(Millar Instruments, Houston, TX,USA)
+\end{enumerate}
 
 \end{document}
