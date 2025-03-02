@@ -7,6 +7,7 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage{geometry}
+\usepackage{amsmath}
 \geometry{a4paper,left=3cm,right=3cm}
 
 \title{Questions and Notes}
@@ -59,6 +60,18 @@
 由反馈IV引起的CA不稳定性是本文使用复杂性框架研究的不稳定性类型：如果患者具有适度的脑脊液(CSF)排出阻力和低颅内顺应性，则这将触发一个正反馈循环，随着颅内顺应性恶化，正反馈循环在颅内动力学中变得更具影响力，使系统远离最佳平衡，类似于罗斯纳的扩血管级联。
 当脑灌注压下降时，还会导致脑血流量的减少，随之产生血管扩张效应以维持恒定流量，导致脑血容量增加，从而增加ICP，进而引起脑灌注压更大程度地减小，导致恶性循环，即正反馈。其他三个反馈逃逸通路试图将ICP保持在正常值。
 
+\section{颅内压-血泵耦合模型的可行性分析}
+\subsection{Fontan循环腔肺辅助装置的血流动力学自适应控制及生理特征评估}
+文章中对CPAD模型使用表示血泵转速变化率的微分方程进行描述，公式如下：
+\begin{equation*}
+    J \frac{d\omega}{dt} = \frac{3}{2} K_B I - B \omega - a_0 \omega^3 - a_1 F_P \omega^2
+\end{equation*}
+上式中的各种参数通过实验确定，CPAD 的血泵转速用 $\omega$ 表示，单位为 rad/s，是随着控制变量 I 变化的因变量；FP 为血泵流量，单位为 ml/s。
+CPAD 的血泵流量由以下微分方程描述：
+\begin{equation*}
+    \frac{dF_P}{dt} = -\frac{b_0}{b_1} F_P - \frac{b_2}{b_1} \omega^2 + \frac{1}{b_1} CPPH
+\end{equation*}
+上式中的参数$b0$、$b1$和$b2$通过实验确定。
 
 
 \end{document}
