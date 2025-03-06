@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  2 MAR 2025 22:10
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  6 MAR 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -491,19 +491,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 [1
 
-] [1] [2] [3] [4] (./Paper_notes.aux)
+] [1] [2] [3]
+Missing character: There is no β ("3B2) in font cmmi12!
+
+Overfull \hbox (20.49281pt too wide) in paragraph at lines 101--102
+\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5674[]10[]5(\OML/cmm/m/it/12 mmHg\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 rpm[]\OT1/cmr/m/n/12 )$\TU/SimSun(0)/m/n/12 、| $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1169(\OML/cmm/m/it/12 mmHg[]s[]mL[]\OT1/cmr/m/n/12 1)$\TU/SimSun(0)/m/n/12 、| $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0023(\OML/cmm/m/it/12 mmHg[]s[]\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 mL[]\OT1/cmr/m/n/12 2)$
+ []
+
+[4] [5] (./Paper_notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9958 strings out of 476720
- 251422 string characters out of 5801443
+ 9970 strings out of 476720
+ 252186 string characters out of 5801443
  1942842 words of memory out of 5000000
- 31865 multiletter control sequences out of 15000+600000
+ 31877 multiletter control sequences out of 15000+600000
  564677 words of font info for 79 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,6n,97p,364b,271s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Paper_notes.pdf (5 pages).
+Output written on Paper_notes.pdf (6 pages).

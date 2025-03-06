@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{ctex} % 支持中文
+\setCJKmainfont{SimSun} % 设置中文字体，例如宋体
+\usepackage{natbib} % 用于引用
+
+\title{基于粒子群优化算法的磁悬浮离心式血泵参数优化设计}
+\author{}
+\date{March 2025}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+为了解决磁悬浮离心式血泵叶轮的优化问题，提出了一种优化方法。
+分析了叶轮参数的敏感性，然后建立了参数与流量和溶血率之间的近似模型，并通过粒子群优化算法找到了最佳参数。
+通过仿真验证了优化方法的有效性。与原始血泵相比，流量增加了27.9\%，溶血率降低了78.6\%。
+\end{abstract}
+
+\section{引言}
+中风是一种发病率和死亡率都很高的脑血管疾病。对于中风，低温输血是一种有效的治疗方法，磁悬浮心脏血泵起着至关重要的作用。
+在本研究中，以自主研发的小体积离心血泵为研究对象。在确保足够流量的同时，降低溶血水平是离心血泵优化的主要关注点。
+在不增加叶轮半径的情况下，提出了一种优化方法，以提高流量并降低溶血率。
+
+\section{血泵参数的敏感性分析}
+血泵的参数如图1所示，包括叶轮形式、叶片形状以及叶片尖端间隙、回流孔和回流通道间隙的尺寸。这些参数与流量和溶血率之间的敏感性分析如图2所示。
+
+\section{构建近似模型并搜索优化}
+根据图2，叶片形状对流量和溶血率的影响最大，而叶片形状由螺旋角控制。因此，螺旋角、流量和溶血率之间的关系被拟合为一个函数，如图3所示。然后，使用PSO算法找到在满足溶血率的情况下最大化流量的螺旋角，得到的最佳螺旋角为$72.9^\circ$。
+
+\section{仿真验证}
+上述最优解的设计螺旋角进行了重新建模，然后进行了CFD仿真验证，如图4所示。拟合模型的预测值和CFD计算结果如表\ref{tab:comparison}所示。流量差异为1.6\%，溶血率差异为2.6\%。
+
+\begin{table}[h]
+    \centering
+    \caption{Comparison Between Fitting Model and CFD Calculation}
+    \label{tab:comparison}
+    \begin{tabular}{lcc}
+        \toprule
+        Item & Flow rate (ml/min) & Hemolysis rate \\
+        \midrule
+        Predicted value & 271.0 & $1.19 \times 10^{-4}$ \\
+        CFD value & 275.6 & $1.16 \times 10^{-4}$ \\
+        Previous value & 215.5 & $5.42 \times 10^{-4}$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{结论}
+仿真结果验证了优化方法的准确性和优势。与原始泵相比，流量增加了27.9\%，溶血率降低了78.6\%。
+
+
+
+\end{document}

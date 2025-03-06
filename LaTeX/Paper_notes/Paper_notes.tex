@@ -66,12 +66,46 @@
 \begin{equation*}
     J \frac{d\omega}{dt} = \frac{3}{2} K_B I - B \omega - a_0 \omega^3 - a_1 F_P \omega^2
 \end{equation*}
-上式中的各种参数通过实验确定，CPAD 的血泵转速用 $\omega$ 表示，单位为 rad/s，是随着控制变量 I 变化的因变量；FP 为血泵流量，单位为 ml/s。
+上式中的各种参数通过实验确定，CPAD 的血泵转速用 $\omega$ 表示，单位为 rad/s，是随着控制变量 I 变化的因变量；$F_P$ 为血泵流量，单位为 ml/s。
 CPAD 的血泵流量由以下微分方程描述：
 \begin{equation*}
     \frac{dF_P}{dt} = -\frac{b_0}{b_1} F_P - \frac{b_2}{b_1} \omega^2 + \frac{1}{b_1} CPPH
 \end{equation*}
 上式中的参数$b0$、$b1$和$b2$通过实验确定。
 
+\subsection{心脏泵多目标控制策略及系统设计}
+该论文根据心脏泵的水力特性，心脏泵效率公式和Choi等提出的模型，考虑流量压差之间的水力损失，构建了新的泵模型，如下：
+\begin{equation*}
+    P_p = \frac{\beta_0 \omega}{\omega_0} \cdot Q - k(Q - Q_{opt} \cdot \frac{\omega^2}{\omega_0}) + b \cdot \left(\frac{\omega}{\omega_0}\right)^2 + \frac{\beta_1 \omega}{\omega_0} \cdot \frac{dQ}{dt}
+\end{equation*}
+可改写为：
+\begin{equation*}
+    P_p = R_p Q + L_p \frac{dQ}{dt} + \beta_2 \omega^2
+\end{equation*}
+其中，\(R_p = \frac{\beta_0 \omega}{\omega_0} - kQ + \frac{2k\beta_0 \omega Q_{opt}}{\omega_0}\)，\(L_p = \frac{\beta_1 \omega}{\omega_0}\)，\(\beta_2 = \frac{-kQ_{opt} + b}{\omega_0^2}\)。
+\(Q_{opt}\) 为最佳工况点的数据源值，\(\omega\) 为对应给定中为模拟各种情形调整的任意参数，\(Q\) 为该参数下的泵流量，\(k\)，\(b\)，\(\beta_0\)，\(\beta_1\) 均为模型参数系数。
+
+\subsection{心室辅助装置控制系统的建模、设计与实现}
+从轴流泵流体力学特征中可以看出，它的性质可以用压差 $H$，泵流 $Q$ 和转速 $\omega$ 来表达。稳态下轴流泵特性表明：在某一转速下，泵进出口压差可表示为与泵  流动相关二阶或者三阶多项式。但进一步研究发现泵流与转速平方之间存在线性关系，其模型表达式如以下公式：
+\begin{equation*}
+    H = \Delta P = P_o - P_i = b_0 Q + b_1 Q^2 + b_2 \omega^2
+\end{equation*}
+其中 $Pi$ 与 $Po$ 分别代表泵的入口、出口压强，$b0$、$b1$、$b2$ 三个系数于泵的结构有关，需要通过实验测定。
+
+\subsection{脉动流左心室辅助装置血流动力学及生理控制研究}
+为了模拟植入 LVAD 的心血管系统血液动力学情况，需要建立 LVAD 在工作时的扬程-流量-转速模型。Kitamura 等人通过对轴流式 LVAD 进行研究，  结合轴流式 LVAD 的水力特性，得到了离心式 LVAD 的模型如公式所示：
+\begin{equation*}
+    H = \beta \omega^2 + R_{p2} Q + R_w Q^2 + L_p \frac{dQ}{dt}
+\end{equation*}
+
+式中： $H$ 为 LVAD 的扬程，单位 mmHg；$Q$ 为泵出流量，单位 L/min；$\frac{dQ}{dt}$ 为输出流量 $Q$ 的变化率；$\omega$为叶轮转速，单位 rpm；$β$、 $R_p$ 、 $R_{\omega}$ 和 $L_p$ 为常数，取值分别为 $1.5674×10^-5(mmHg/rpm^2)$、$-0.1169(mmHg·s·mL^-1)$、$-0.0023(mmHg·s^-2 mL^-2)$和$-0.0034(mmHg·s^2 mL^-1)$。
+
+
+\subsection{离心血泵控制策略及体外模拟循环系统研究}
+根据 Choi 等人的研究，可以得到离心血泵的微分方程如下：
+\begin{equation*}
+    \frac{dQ_x}{dt} = -\frac{\beta_0}{\beta_1} Q_x - \frac{\beta_2}{\beta_1} \omega^2 + \frac{1}{\beta_1} H
+\end{equation*}
+其中$Q_x$表示血泵流量，$\frac{dQ_x}{dt}$表示流量的变化率，$H$表示血泵进出口的压力差，$\omega$表示血泵叶轮转速。$\beta_0$ 、$\beta_1$、 $\beta_2$为实验常数。
 
 \end{document}
