@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  6 MAR 2025 22:53
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  9 MAR 2025 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -491,14 +491,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 [1
 
-] [1] [2] [3]
+] [1] [2] [3] [4]
 Missing character: There is no β ("3B2) in font cmmi12!
 
-Overfull \hbox (20.49281pt too wide) in paragraph at lines 101--102
+Overfull \hbox (20.49281pt too wide) in paragraph at lines 103--104
 \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 5674[]10[]5(\OML/cmm/m/it/12 mmHg\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 rpm[]\OT1/cmr/m/n/12 )$\TU/SimSun(0)/m/n/12 、| $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1169(\OML/cmm/m/it/12 mmHg[]s[]mL[]\OT1/cmr/m/n/12 1)$\TU/SimSun(0)/m/n/12 、| $\OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0023(\OML/cmm/m/it/12 mmHg[]s[]\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 mL[]\OT1/cmr/m/n/12 2)$
  []
 
-[4] [5] (./Paper_notes.aux)
+[5] (./Paper_notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
