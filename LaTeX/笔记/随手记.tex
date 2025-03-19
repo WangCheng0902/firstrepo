@@ -1,0 +1,64 @@
+\documentclass[12pt,a4paper]{article} % 使用article文档类，字体大小为12pt，纸张为A4
+
+% 引入必要的包
+\usepackage[UTF8]{ctex} % 支持中文
+\usepackage{amsmath} % 数学公式
+\usepackage{amssymb} % 数学符号
+\usepackage{geometry} % 设置页面边距
+\usepackage{graphicx} % 插入图片
+\usepackage{hyperref} % 超链接
+\usepackage{listings} % 插入代码
+\usepackage{xcolor} % 自定义颜色
+\usepackage{booktabs} % 表格优化
+\usepackage{enumitem} % 调整列表格式
+
+% 页面设置
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm} % 设置页边距
+
+% 代码样式设置
+\lstset{
+    basicstyle=\ttfamily\small, % 设置代码字体和大小
+    numbers=left, % 显示行号
+    numberstyle=\tiny, % 行号字体
+    keywordstyle=\color{blue}, % 关键词颜色
+    commentstyle=\color{gray}, % 注释颜色
+    stringstyle=\color{red}, % 字符串颜色
+    breaklines=true, % 自动换行
+    frame=single, % 添加边框
+    backgroundcolor=\color{gray!10} % 背景颜色
+}
+
+\title{随手记} % 文档标题
+\author{王成} % 作者
+\date{\today} % 日期
+
+\begin{document}
+
+\maketitle % 生成标题
+
+\section{知乎}
+\subsection{集总参数模型中的地解释}
+\colorbox{yellow!20}{
+    \parbox{\dimexpr\linewidth-2\fboxsep}{
+        由于血液从心脏射出，流经动脉，然后进入毛细血管和静脉系统，流回到心脏。在电网络模型中，可以将心脏视为交流电源。由于静脉系统的血压较低，可以将静脉视为零电位，血液流入静脉视为电路中的“接地”。动脉系统的整体电网络模型如图所示：
+    }
+}
+
+\subsection{子标题2}
+插入公式示例：
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+
+
+插入代码示例：
+\begin{lstlisting}[language=Python, caption=Python代码示例]
+def hello_world():
+    print("Hello, World!")
+\end{lstlisting}
+
+\section{结论}
+这里是结论部分。
+
+\end{document}
