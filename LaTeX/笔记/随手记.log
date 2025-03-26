@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  19 MAR 2025 10:43
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.30)  23 MAR 2025 00:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -620,7 +620,7 @@ Overfull \hbox (31.824pt too wide) in paragraph at lines 45--46
 (d:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 56.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 61.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -646,21 +646,21 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 
  [1
 
-] (./随手记.aux)
+] [2] (./随手记.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `随手记.out' has not changed.
-(rerunfilecheck)             Checksum: E6C5CC329F77B7A781043C50148DDEE9;349.
+(rerunfilecheck)             Checksum: C5A17418FCAB4FBA4888F341AC9B83B8;577.
  ) 
 Here is how much of TeX's memory you used:
- 17811 strings out of 476720
- 365501 string characters out of 5801443
- 1945842 words of memory out of 5000000
- 39580 multiletter control sequences out of 15000+600000
+ 17836 strings out of 476720
+ 366962 string characters out of 5801443
+ 1954842 words of memory out of 5000000
+ 39605 multiletter control sequences out of 15000+600000
  567739 words of font info for 101 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  93i,6n,97p,365b,1294s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 随手记.pdf (1 page).
+Output written on 随手记.pdf (2 pages).
