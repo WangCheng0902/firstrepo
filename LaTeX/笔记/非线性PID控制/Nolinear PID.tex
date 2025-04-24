@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+
+% 中文支持
+\usepackage{ctex}
+
+% 数学公式
+\usepackage{amsmath,amssymb,amsfonts}
+
+% 图片支持
+\usepackage{graphicx}
+\graphicspath{{./images/}} % 图片路径
+
+% 超链接
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+% 表格
+\usepackage{booktabs}
+\usepackage{multirow}
+
+% 代码
+\usepackage{listings}
+\usepackage{xcolor}
+
+% 页面设置
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% 文档信息
+\title{非线性PID控制笔记}
+\author{王成}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{引言}
+这里是引言部分。
+
+\section{公式示例}
+PID控制器的传递函数：
+\begin{equation}
+G(s) = K_p + \frac{K_i}{s} + K_d s
+\end{equation}
+
+\section{图片示例}
+\begin{figure}[htbp]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{example.png}
+    \caption{图片示例}
+    \label{fig:example}
+\end{figure}
+
+\section{超链接示例}
+请访问 \href{https://www.latex-project.org/}{LaTeX Project}获取更多信息。
+
+\end{document}
