@@ -1,0 +1,87 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[UTF8]{ctex} % 使用ctex宏包支持中文
+\usepackage{xeCJK}
+% 设置中文字体（SimSun 或其他支持中文的字体）
+\setCJKmainfont{SimSun}[AutoFakeBold=true]  % 启用伪粗体解决粗体缺失问题
+\setCJKsansfont{KaiTi}                      % 设置中文无衬线字体（可选）
+\setCJKmonofont{FangSong}                   % 设置中文等宽字体（可选）
+
+% 设置英文字体（避免等宽字体报错）
+\setmainfont{Times New Roman}               % 英文衬线字体
+\setsansfont{Arial}                         % 英文无衬线字体（可选）
+\setmonofont{Courier New}                   % 英文等宽字体（必须定义）
+
+% 基本宏包
+\usepackage{amsmath,amssymb,amsfonts} % 数学公式支持
+\usepackage{graphicx} % 图片支持
+\usepackage{float} % 提供 H 选项固定图片位置
+\usepackage{booktabs} % 表格美化
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=red]{hyperref} % 超链接
+\usepackage{geometry} % 页面设置
+\geometry{margin=2.5cm} % 页边距
+\usepackage{enumitem} % 列表环境定制
+\usepackage{listings} % 代码展示
+\usepackage{xcolor} % 颜色支持
+\usepackage{caption} % 标题定制
+\usepackage{subcaption} % 子标题支持
+\usepackage[backend=biber, style=gb7714-2015, citestyle=numeric-comp]{biblatex} % 参考文献
+
+% 引用文献数据库
+\addbibresource{refs.bib} % 替换为您的.bib文件路径
+
+\title{按时间线的笔记}
+\author{王成}
+\date{April 27, 2025 - \today}
+
+\begin{document}
+
+\maketitle
+
+\section{\today}
+
+人脑血流的自我调节能力是器官或血管床在血压变化时维持恒定灌注的内在能力\cite{gaoMathematicalConsiderationsModeling1998}。
+
+找到一篇使用李雅普洛夫方法分析脑血流动力学模型的文章\cite{golubevModelingCerebralBlood2022}。
+
+是否分析二氧化碳对脑血管及血流动力学的影响\cite{ursinoModelCerebrovascularReactivity2010}？
+
+\section{数学公式示例}
+行内公式: $E=mc^2$
+
+行间公式:
+\begin{equation}
+    \int_{a}^{b} f(x) \, dx = F(b) - F(a)
+\end{equation}
+
+\section{图片示例}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{example-image} % 替换为您的图片路径
+    \caption{示例图片}
+    \label{fig:example}
+\end{figure}
+
+引用图片：如图\ref{fig:example}所示。
+
+\section{表格示例}
+\begin{table}[htbp]
+    \centering
+    \caption{示例表格}
+    \begin{tabular}{lcc}
+        \toprule
+        项目 & 数值1 & 数值2 \\
+        \midrule
+        项目1 & 100 & 200 \\
+        项目2 & 300 & 400 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:example}
+\end{table}
+
+\section{参考文献示例}
+引用文献\cite{agarwalMathematicalModelingPulsatile2008}。
+
+\printbibliography
+
+\end{document}

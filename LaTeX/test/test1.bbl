@@ -1,0 +1,77 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{2000}{article}{}
+      \name{author}{3}{}{%
+        {{hash=99c1b1c41e8906ee798a8a9d5fc5b9e8}{%
+           family={Agarwal},
+           familyi={A\bibinitperiod},
+           given={Ruchi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3f404ec5705043d3c33ff7b85aa51b10}{%
+           family={Katiyar},
+           familyi={K\bibinitperiod},
+           given={V.\bibnamedelimi K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=25bdca998a70f49e49d3b158d41685d8}{%
+           family={Pradhan},
+           familyi={P\bibinitperiod},
+           given={Prabhakar},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{fullhash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{bibnamehash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{authorbibnamehash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{authornamehash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{authorfullhash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Real carotid arteries are elastic and perfused with a non-Newtonian fluid. The blood flow is pulsatile characterized by the reverse flow regions at the non-divider wall of internal carotid artery and external carotid artery. A coupling effect between fluid flow and elastic deformation is introduced. In addition we have calculated volumetric flow rate, pressure gradient and Impedance due to pulsatile flow in elastic carotid artery. We analyzed the flow at various locations in common carotid artery and internal carotid artery for different frequencies 60, 90, 120pulse/min and Reynolds number 500 using a compliance mismatch model of carotid artery. Reverse flow of blood increases the impedance and should not be discarded. The problem has been analyzed mathematically and the agreement between present results and the available literature was found to be quite satisfactory.}
+      \field{annotation}{TLDR: Real carotid arteries are elastic and perfused with a non-Newtonian fluid and reverse flow of blood increases the impedance and should not be discarded, so the problem has been analyzed mathematically and the agreement between present results and the available literature was found to be quite satisfactory.\\ titleTranslation: 颈动脉分叉处脉动流的数学模型}
+      \field{issn}{0020-7225}
+      \field{journaltitle}{International Journal of Engineering Science}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{A Mathematical Modeling of Pulsatile Flow in Carotid Artery Bifurcation}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{46}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{1147\bibrangedash 1156}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ijengsci.2008.06.002
+      \endverb
+      \verb{file}
+      \verb C:\Users\WangCheng\Zotero\storage\6HJUKJ57\Agarwal 等 - 2008 - A mathematical modeling of pulsatile flow in carotid artery bifurcation.pdf
+      \endverb
+      \keyw{Carotid Artery,Deformation,Impedance,Pulsatile flow}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

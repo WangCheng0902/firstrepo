@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage[backend=biber, style=numeric]{biblatex}
+\addbibresource{references.bib}
+
+% 最佳解决方案
+\let\oldcite\cite
+\renewcommand{\cite}[1]{\textsuperscript{\oldcite{#1}}}
+
+\begin{document}
+There is a \cite{2000}。 % 显示为 [¹]
+
+\printbibliography
+\end{document}

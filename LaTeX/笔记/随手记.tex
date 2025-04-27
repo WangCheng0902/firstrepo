@@ -6,11 +6,11 @@
 \usepackage{amssymb} % 数学符号
 \usepackage{geometry} % 设置页面边距
 \usepackage{graphicx} % 插入图片
-\usepackage{hyperref} % 超链接
 \usepackage{listings} % 插入代码
 \usepackage{xcolor} % 自定义颜色
 \usepackage{booktabs} % 表格优化
 \usepackage{enumitem} % 调整列表格式
+\usepackage[backref, colorlinks,linkcolor=blue]{hyperref}
 
 % 页面设置
 \geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm} % 设置页边距
@@ -51,21 +51,34 @@
 
 \subsection{动脉顺应性与静脉顺应性}
     静脉顺应性通常是动脉顺应性的10\textendash 20倍，因此，当动脉血管内血液量减少而静脉血管内血液量增加时，动脉压的下降幅度通常至少是静脉压上升幅度的 10 倍。
-\subsection{子标题2}
-插入公式示例：
-\begin{equation}
-    E = mc^2
-\end{equation}
 
+    静脉压力-容积关系的非线性特性了用如下关系表示：
+\begin{equation*}
+    \Delta V = \frac{2 \cdot \Delta V}{\pi} \arctan \left( \frac{\pi \cdot C_0}{2 \cdot \Delta V_{\text{max}}} \cdot \Delta P_{\text{trans}} \right)
+\end{equation*}
+其中，$\Delta V$表示跨壁压引起的腔室容积变化量，$\Delta V_{\text{max}}$ 表示腔室容积最大变化量，$C_0$表示基础跨壁压，即$\Delta P_{\text{trans}} = 0$ 时的腔室顺应性。下图 \ref{fig:nonlinear-compliance} 展示了非线性静脉顺应性的压力-容积关系曲线。
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/非线性顺应性.png}
+    \caption{Pressure-volume relations for changes in stressed volume of the abdominal ($ V_{ab}$), leg ($V_{ll}$), and splanchnic ($V_{sp}$) venous compartments.}
+    \label{fig:nonlinear-compliance}
+\end{figure}
+具体建模方法与内容可参考文献如下\cite{heldtComputationalModelingCardiovascular2002}。
 
+\subsection{动脉血二氧化碳}
+动脉血中二氧化碳浓度的变化对脑总血流量有重要影响。高碳酸血症会扩张脑血管并增加血流量，而低碳酸血症则会收缩脑血管并减少血流量。血氧含量的变化会产生相反效果，但其引发的血管收缩或扩张刺激作用弱于血二氧化碳浓度的变化\cite{pina-garzaChapter4Increased2013}。
 
-插入代码示例：
-\begin{lstlisting}[language=Python, caption=Python代码示例]
-def hello_world():
-    print("Hello, World!")
-\end{lstlisting}
+颅内结构对缓慢增加的压力适应能力相当强，但突然的变化则无法耐受，会导致头痛、性格改变和意识水平下降等不同症状的组合。
 
-\section{结论}
-这里是结论部分。
+\subsection{治疗性低温}
+低温会降低脑血流量。将体温维持在27°C至31°C之间最为理想。除其他降低脑血流量的措施外，低温疗法的额外获益尚不明确\cite{pina-garzaChapter4Increased2013}。
 
+治疗性低温通过改变血管直径来实现对脑血流量的影响。低温会导致血管收缩，降低脑血流量。通过实验观测得到了治疗性低温对血管直径调控的理论模型\cite{josephUsingHumanCirculation2022,konstasTheoreticalModelSelective2007}。
+\begin{equation*}
+    D_{35.5} = D_{37.5} \times Q_{10}^{\beta(35.5-37.5)}
+\end{equation*}
+其中$D_T$表示温度T时的血管直径，$Q_{10} = 2.96$，$\beta = 0.08$ \cite{josephUsingHumanCirculation2022}。随后利用这些直径数据重新分配模型中的所有阻力值。
+
+\bibliographystyle{plain}
+\bibliography{Bible/ref} % 参考文献文件名
 \end{document}
