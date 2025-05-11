@@ -1,13 +1,49 @@
 \documentclass{article}
-\usepackage[backend=biber, style=numeric]{biblatex}
-\addbibresource{references.bib}
+\usepackage{amsmath, amsthm}        % 数学公式和定理环境
+\usepackage{xcolor}                % 颜色支持
+\usepackage{tcolorbox}             % 方框宏包
+\tcbuselibrary{theorems, skins}    % 加载定理和皮肤库
 
-% 最佳解决方案
-\let\oldcite\cite
-\renewcommand{\cite}[1]{\textsuperscript{\oldcite{#1}}}
+% 定义红色方框环境（Definition）
+\newtcbtheorem[number within=section]{definition}{Definition}{
+  colback=red!5!white,    % 背景颜色
+  colframe=red!75!black,  % 边框颜色
+  fonttitle=\bfseries,    % 标题字体
+  sharp corners,          % 直角边框
+  title style={fill=red!20!white}, % 标题背景颜色
+  boxrule=1pt,            % 边框粗细
+  arc=0mm,                % 直角边角
+  left=2mm, right=2mm,    % 左右边距
+}{def}
+
+% 定义绿色方框环境（Theorem）
+\newtcbtheorem[number within=section]{theorem}{Theorem}{
+  colback=green!5!white,
+  colframe=green!50!black,
+  fonttitle=\bfseries,
+  sharp corners,
+  title style={fill=green!20!white},
+  boxrule=1pt,
+  arc=0mm,
+  left=2mm, right=2mm,
+}{thm}
 
 \begin{document}
-There is a \cite{2000}。 % 显示为 [¹]
 
-\printbibliography
+\section{Group Theory}
+
+% 使用红色方框定义环境
+\begin{definition}{Inner automorphisms}{inner_automorphism}
+Let \(G\) be a group, and let \(a \in G\). The function \(\phi_{a}\) defined by
+\[
+\phi_{a}(x) = a x a^{-1} \quad \text{for all } x \in G
+\]
+is called the \textbf{inner automorphism} of \(G\) induced by \(a\).
+\end{definition}
+
+% 使用绿色方框定理环境
+\begin{theorem}{Automorphism Groups}{automorphism_group}
+The set of automorphisms of a group (\(\operatorname{Aut}(G)\)) and the set of inner automorphisms (\(\operatorname{Inn}(G)\)) are both groups under the operation of function composition.
+\end{theorem}
+
 \end{document}

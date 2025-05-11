@@ -26,19 +26,22 @@
 \usepackage{caption} % 标题定制
 \usepackage{subcaption} % 子标题支持
 \usepackage[backend=biber, style=gb7714-2015, citestyle=numeric-comp]{biblatex} % 参考文献
+\usepackage{datetime2}
 
 % 引用文献数据库
 \addbibresource{refs.bib} % 替换为您的.bib文件路径
 
 \title{按时间线的笔记}
 \author{王成}
-\date{April 27, 2025 - \today}
+\date{2025-04-27 \textendash \today}
 
 \begin{document}
 
 \maketitle
 
-\section{\today}
+\section{4月}
+
+\subsection*{4月27日}
 
 人脑血流的自我调节能力是器官或血管床在血压变化时维持恒定灌注的内在能力\cite{gaoMathematicalConsiderationsModeling1998}。
 
@@ -46,41 +49,37 @@
 
 是否分析二氧化碳对脑血管及血流动力学的影响\cite{ursinoModelCerebrovascularReactivity2010}？
 
-\section{数学公式示例}
-行内公式: $E=mc^2$
+\subsection*{4月28日}
+脑积水及相关疾病的本质是脑脊液通路阻抗异常所致\cite{egnorQuantitativeModelCerebral2023}：
+阻塞性脑积水源于高阻力导致的高通路阻抗；正常压力脑积水是低惯量和高顺应性引发的高通路阻抗；低压性脑积水则由高阻力与高顺应性共同导致的高通路阻抗引起。
 
-行间公式:
-\begin{equation}
-    \int_{a}^{b} f(x) \, dx = F(b) - F(a)
-\end{equation}
+压力-容积指数（Pressure-Volume Index, PVI）是用于评估颅内容积-压力关系的量化指标，定义为通过脑室内注射生理盐水使颅内压（ICP）增加10倍所需的液体体积（单位：毫升）\cite{lavinioRelationshipIntracranialPressure2009}。
+该指数反映了颅内系统的弹性（elastance）和容积缓冲能力：
+\begin{itemize}
+    \item \textbf{正常范围}：成人PVI正常值为20–25 ml，数值越低表明颅内容积缓冲储备越差，弹性越差；
+    \item \textbf{异常阈值}：PVI <18 ml为“受损”，<13 ml为“严重受损”。
+\end{itemize}
 
-\section{图片示例}
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=0.7\textwidth]{example-image} % 替换为您的图片路径
-    \caption{示例图片}
-    \label{fig:example}
-\end{figure}
+\subsection*{5月2日}
+人体的自动调节机制通常分为两大类\cite{ficolaPhysicalModelIntracranial2018}：
+\begin{itemize}
+    \item \textbf{肌源性}：由动脉和微动脉的平滑肌主动调控血管张力实现。当血管壁受到压力变化（如血压升高）时，血管平滑肌通过机械敏感性离子通道感知牵张刺激，触发收缩反应（Bayliss效应）
+    。在数学模型中可通过血管阻力与压力关系的动态方程描述（Ursino等，1998[3]）。临床观测显示其与脑灌注压（CPP）变化呈非线性响应[39]。
+    \item \textbf{流体性}：通过被动物理结构实现，特别是颅内静脉系统的Starling电阻效应，例如高顺应性静脉壁的被动形变特性。当颅内压（ICP）变化时，静脉出口处的桥静脉因压力差发生被动塌陷/扩张，改变血流阻力（图6-7）[12][15][27]。
+    通过物理模型证实，使用Penrose软管模拟桥静脉时能复现流量-压力自稳现象（图13），刚性管道则无此特性[1]。
+\end{itemize}
 
-引用图片：如图\ref{fig:example}所示。
+脉络丛是由脉络膜动脉供血的解剖结构，其通过过滤动脉血产生脑脊液。
 
-\section{表格示例}
-\begin{table}[htbp]
-    \centering
-    \caption{示例表格}
-    \begin{tabular}{lcc}
-        \toprule
-        项目 & 数值1 & 数值2 \\
-        \midrule
-        项目1 & 100 & 200 \\
-        项目2 & 300 & 400 \\
-        \bottomrule
-    \end{tabular}
-    \label{tab:example}
-\end{table}
+\subsection*{5月3日}
+脑脊液是一种由99\%水分组成的无色液体，充盈于脑室、蛛网膜下腔（包裹脑组织的两层深层脑膜——软脑膜与蛛网膜之间的间隙）以及细胞间隙。
+脑脊液的存在为脑部运动提供阻尼效应，起到缓冲和保护脑组织免受损伤的作用。
+脑脊液由脑室脉络丛（\texttt{位于脑室内壁的毛细血管丛，是CSF的主要生成部位。其通过主动运输和滤过作用，将血液中的水分和溶质转化为CSF}）从脑部血液中持续生成，流经脑组织与脊髓，并不断被位于硬脑膜静脉窦的绒毛结构（蛛网膜上方\texttt{矢状窦}）重新吸收\cite{evansDynamicsBifurcationsLowdimensional2016}。
 
-\section{参考文献示例}
-引用文献\cite{agarwalMathematicalModelingPulsatile2008}。
+
+
+
+
 
 \printbibliography
 

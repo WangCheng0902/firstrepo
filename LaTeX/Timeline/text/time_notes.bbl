@@ -301,86 +301,419 @@
       \endverb
       \keyw{Cerebral physiology,Cerebrovascular reactivity,Circle of Willis,Intracranial arterial stenosis,Modeling,Simulation,Steal phenomenon,Transient hyperemic response}
     \endentry
-    \entry{agarwalMathematicalModelingPulsatile2008}{article}{}
-      \name{author}{3}{}{%
-        {{hash=99c1b1c41e8906ee798a8a9d5fc5b9e8}{%
-           family={Agarwal},
-           familyi={A\bibinitperiod},
-           given={Ruchi},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3f404ec5705043d3c33ff7b85aa51b10}{%
-           family={Katiyar},
-           familyi={K\bibinitperiod},
-           given={V.\bibnamedelimi K.},
-           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=25bdca998a70f49e49d3b158d41685d8}{%
-           family={Pradhan},
-           familyi={P\bibinitperiod},
-           given={Prabhakar},
-           giveni={P\bibinitperiod}}}%
+    \entry{egnorQuantitativeModelCerebral2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=150a85f3e56c6c282ab8cd7cc133a118}{%
+           family={Egnor},
+           familyi={E\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13b67d4d83b1d3002d9480fa84cdc9ee}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=60092425ab50e685ba4dffcd669b2107}{%
+           family={Mani},
+           familyi={M\bibinitperiod},
+           given={Racheed\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=899903a9bd6dcedcba8b39ee1bbe8d15}{%
+           family={Fiore},
+           familyi={F\bibinitperiod},
+           given={Susan\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7b1e96cf3fd673d46050d53e9bcc553}{%
+           family={Djurić},
+           familyi={D\bibinitperiod},
+           given={Petar\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \name{namea}{3}{}{%
-        {{hash=99c1b1c41e8906ee798a8a9d5fc5b9e8}{%
-           family={Agarwal},
-           familyi={A\bibinitperiod},
-           given={Ruchi},
-           giveni={R\bibinitperiod}}}%
-        {{hash=3f404ec5705043d3c33ff7b85aa51b10}{%
-           family={Katiyar},
-           familyi={K\bibinitperiod},
-           given={V.\bibnamedelimi K.},
-           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=25bdca998a70f49e49d3b158d41685d8}{%
-           family={Pradhan},
-           familyi={P\bibinitperiod},
-           given={Prabhakar},
-           giveni={P\bibinitperiod}}}%
+      \name{namea}{5}{}{%
+        {{hash=150a85f3e56c6c282ab8cd7cc133a118}{%
+           family={Egnor},
+           familyi={E\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13b67d4d83b1d3002d9480fa84cdc9ee}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Liu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=60092425ab50e685ba4dffcd669b2107}{%
+           family={Mani},
+           familyi={M\bibinitperiod},
+           given={Racheed\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=899903a9bd6dcedcba8b39ee1bbe8d15}{%
+           family={Fiore},
+           familyi={F\bibinitperiod},
+           given={Susan\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a7b1e96cf3fd673d46050d53e9bcc553}{%
+           family={Djurić},
+           familyi={D\bibinitperiod},
+           given={Petar\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{fullhash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{bibnamehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{authorbibnamehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{authornamehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{authorfullhash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{nameabibnamehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{nameanamehash}{e0a1e5bee39221bc0d1594c74cd35243}
-      \strng{nameafullhash}{e0a1e5bee39221bc0d1594c74cd35243}
+      \strng{namehash}{fb704bff66d6df278797f2820919743a}
+      \strng{fullhash}{20beed7add0d41252f1d5987ce8d0ae2}
+      \strng{bibnamehash}{46ad6f6756627143b6916c37308256be}
+      \strng{authorbibnamehash}{46ad6f6756627143b6916c37308256be}
+      \strng{authornamehash}{fb704bff66d6df278797f2820919743a}
+      \strng{authorfullhash}{20beed7add0d41252f1d5987ce8d0ae2}
+      \strng{nameabibnamehash}{46ad6f6756627143b6916c37308256be}
+      \strng{nameanamehash}{fb704bff66d6df278797f2820919743a}
+      \strng{nameafullhash}{20beed7add0d41252f1d5987ce8d0ae2}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Real carotid arteries are elastic and perfused with a non-Newtonian fluid. The blood flow is pulsatile characterized by the reverse flow regions at the non-divider wall of internal carotid artery and external carotid artery. A coupling effect between fluid flow and elastic deformation is introduced. In addition we have calculated volumetric flow rate, pressure gradient and Impedance due to pulsatile flow in elastic carotid artery. We analyzed the flow at various locations in common carotid artery and internal carotid artery for different frequencies 60, 90, 120pulse/min and Reynolds number 500 using a compliance mismatch model of carotid artery. Reverse flow of blood increases the impedance and should not be discarded. The problem has been analyzed mathematically and the agreement between present results and the available literature was found to be quite satisfactory.}
-      \field{annotation}{TLDR: Real carotid arteries are elastic and perfused with a non-Newtonian fluid and reverse flow of blood increases the impedance and should not be discarded, so the problem has been analyzed mathematically and the agreement between present results and the available literature was found to be quite satisfactory.\\ titleTranslation: 颈动脉分叉处脉动流的数学模型}
-      \field{issn}{0020-7225}
-      \field{journaltitle}{International Journal of Engineering Science}
+      \field{abstract}{OBJECTIVE: Traditional models of intracranial dynamics fail to capture several important features of the intracranial pressure (ICP) pulse. Experiments show that, at a local amplitude minimum, the ICP pulse normally precedes the arterial blood pressure (ABP) pulse, and the cranium is a band-stop filter centered at the heart rate for the ICP pulse with respect to the ABP pulse, which is the cerebral windkessel mechanism. These observations are inconsistent with existing pressure-volume models. METHODS: To explore these issues, the authors modeled the ABP and ICP pulses by using a simple electrical tank circuit, and they compared the dynamics of the circuit to physiological data from dogs by using autoregressive with exogenous inputs (ARX) modeling. RESULTS: The authors' ARX analysis showed close agreement between the circuit and pulse suppression in the canine cranium, and they used the analogy between the circuit and the cranium to examine the dynamics that underlie this pulse suppression. CONCLUSIONS: This correspondence between physiological data and circuit dynamics suggests that the cerebral windkessel consists of the rhythmic motion of the brain parenchyma and CSF that continuously opposes systolic and diastolic blood flow. Such motion has been documented with flow-sensitive MRI. In thermodynamic terms, the direct current (DC) power of cerebral arterial perfusion drives smooth capillary flow and alternating current (AC) power shunts pulsatile energy through the CSF to the veins. This suggests that hydrocephalus and related disorders are disorders of CSF path impedance. Obstructive hydrocephalus is the consequence of high CSF path impedance due to high resistance. Normal pressure hydrocephalus (NPH) is the consequence of high CSF path impedance due to low inertance and high compliance. Low-pressure hydrocephalus is the consequence of high CSF path impedance due to high resistance and high compliance. Ventriculomegaly is an adaptive physiological response that increases CSF path volume and thereby reduces CSF path resistance and impedance. Pseudotumor cerebri is the consequence of high DC power with normal CSF path impedance. CSF diversion by shunting is an accessory windkessel-it drains energy (and thereby lowers ICP) and lowers CSF path resistance and impedance. Cushing's reflex is an accessory windkessel in extremis-it maintains DC power (arterial hypertension) and reduces AC power (bradycardia). The windkessel theory is a thermodynamic approach to the study of energy flow through the cranium, and it points to a new understanding of hydrocephalus and related disorders.}
+      \field{annotation}{TLDR: The windkessel theory is a thermodynamic approach to the study of energy flow through the cranium, and it points to a new understanding of hydrocephalus and related disorders.}
+      \field{day}{1}
+      \field{eprinttype}{pubmed}
+      \field{issn}{1933-0715}
+      \field{journaltitle}{Journal of Neurosurgery. Pediatrics}
       \field{langid}{english}
       \field{languageid}{english}
       \field{lansortorder}{4}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{A Mathematical Modeling of Pulsatile Flow in Carotid Artery Bifurcation}
-      \field{urlday}{20}
-      \field{urlmonth}{3}
+      \field{month}{9}
+      \field{number}{3}
+      \field{shortjournal}{J. Neurosurg., Pediatr.}
+      \field{title}{A Quantitative Model of the Cerebral Windkessel and Its Relevance to Disorders of Intracranial Dynamics}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{32}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{302\bibrangedash 311}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3171/2023.1.PEDS22372
+      \endverb
+      \verb{eprint}
+      \verb 37382303
+      \endverb
+      \verb{file}
+      \verb C:\Users\WangCheng\Zotero\storage\NQZCQVM9\Egnor 等 - 2023 - A quantitative model of the cerebral windkessel and its relevance to disorders of intracranial dynam.pdf
+      \endverb
+      \keyw{Animals,ARX,autoregressive with exogenous inputs,band-stop filter,Brain,cerebral windkessel,CSF,Dogs,electric circuit model,hydrocephalus,Hydrocephalus,ICP,intracranial dynamics,intracranial pressure,Intracranial Pressure,Magnetic Resonance Imaging,mathematical modeling,Pseudotumor Cerebri,pulsatility,trauma}
+    \endentry
+    \entry{lavinioRelationshipIntracranialPressure2009}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e941d64fdb829c80064e36fea26ff6a2}{%
+           family={Lavinio},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0906b81d87c69c32cd23af5ef19eab80}{%
+           family={Rasulo},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1dce264196c37841c8173768aa30d65c}{%
+           family={De\bibnamedelima Peri},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e1b226295ca1cc7e6f6bb032f8f0f8ce}{%
+           family={Czosnyka},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b8358b3c03ef3f15f2ef925ad8efa4b}{%
+           family={Latronico},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{namea}{5}{}{%
+        {{hash=e941d64fdb829c80064e36fea26ff6a2}{%
+           family={Lavinio},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0906b81d87c69c32cd23af5ef19eab80}{%
+           family={Rasulo},
+           familyi={R\bibinitperiod},
+           given={F.\bibnamedelimi A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1dce264196c37841c8173768aa30d65c}{%
+           family={De\bibnamedelima Peri},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e1b226295ca1cc7e6f6bb032f8f0f8ce}{%
+           family={Czosnyka},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2b8358b3c03ef3f15f2ef925ad8efa4b}{%
+           family={Latronico},
+           familyi={L\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{c18c43f7b8fbb72bea948217e45551f5}
+      \strng{fullhash}{a4d59bcb66b44f17b7121225434697d6}
+      \strng{bibnamehash}{d95071b86f21a79160014e46d8d24a21}
+      \strng{authorbibnamehash}{d95071b86f21a79160014e46d8d24a21}
+      \strng{authornamehash}{c18c43f7b8fbb72bea948217e45551f5}
+      \strng{authorfullhash}{a4d59bcb66b44f17b7121225434697d6}
+      \strng{nameabibnamehash}{d95071b86f21a79160014e46d8d24a21}
+      \strng{nameanamehash}{c18c43f7b8fbb72bea948217e45551f5}
+      \strng{nameafullhash}{a4d59bcb66b44f17b7121225434697d6}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The pressure–volume index (PVI) can be used to assess the cerebrospinal fluid dynamics and intracranial elastance in critically ill brain injured patients. The dependency of PVI on the state of cerebral autoregulation within the physiologic range of cerebral perfusion pressure (CPP) can be described by mathematical models that account for changes in cerebral blood volume during PVI testing. This relationship has never been verified clinically using direct PVI measurement and independent cerebral autoregulation assessment.}
+      \field{annotation}{TLDR: Cerebral autoregulation status can affect PVI estimation despite a normal CPP, and PVI measurement may overestimate the tolerance of the intracranial system to volume loads in patients with disturbed cerebral autoreGulation.}
+      \field{day}{1}
+      \field{issn}{1432-1238}
+      \field{journaltitle}{Intensive Care Medicine}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Intensive Care Med.}
+      \field{title}{The Relationship between the Intracranial Pressure–Volume Index and Cerebral Autoregulation}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
       \field{urlyear}{2025}
       \field{usera}{J}
       \field{userd}{english}
       \field{userf}{english}
-      \field{volume}{46}
-      \field{year}{2008}
+      \field{volume}{35}
+      \field{year}{2009}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{1147\bibrangedash 1156}
-      \range{pages}{10}
+      \field{pages}{546\bibrangedash 549}
+      \range{pages}{4}
       \verb{doi}
-      \verb 10.1016/j.ijengsci.2008.06.002
+      \verb 10.1007/s00134-008-1311-5
       \endverb
       \verb{file}
-      \verb C:\Users\WangCheng\Zotero\storage\6HJUKJ57\Agarwal 等 - 2008 - A mathematical modeling of pulsatile flow in carotid artery bifurcation.pdf
+      \verb C:\Users\WangCheng\Zotero\storage\C565F39S\Lavinio 等 - 2009 - The relationship between the intracranial pressure–volume index and cerebral autoregulation.pdf
       \endverb
-      \keyw{Carotid Artery,Deformation,Impedance,Pulsatile flow}
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00134-008-1311-5
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00134-008-1311-5
+      \endverb
+      \keyw{Cerebral autoregulation,Cerebral perfusion pressure,Intracranial pressure,Pressure–volume index,Transcranial Doppler}
+    \endentry
+    \entry{ficolaPhysicalModelIntracranial2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=117c2cec524908287776cd29931cb6a1}{%
+           family={Ficola},
+           familyi={F\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7f1e5d53c28347c209e240fe9ae218a2}{%
+           family={Fravolini},
+           familyi={F\bibinitperiod},
+           given={Mario\bibnamedelima Luca},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=663a4d9909801a27380970d6fbb4999b}{%
+           family={Anile},
+           familyi={A\bibinitperiod},
+           given={Carmelo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=117c2cec524908287776cd29931cb6a1}{%
+           family={Ficola},
+           familyi={F\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7f1e5d53c28347c209e240fe9ae218a2}{%
+           family={Fravolini},
+           familyi={F\bibinitperiod},
+           given={Mario\bibnamedelima Luca},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=663a4d9909801a27380970d6fbb4999b}{%
+           family={Anile},
+           familyi={A\bibinitperiod},
+           given={Carmelo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{fullhash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{bibnamehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{authorbibnamehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{authornamehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{authorfullhash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{nameabibnamehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{nameanamehash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \strng{nameafullhash}{551517509f268d1f9f8f932ed2e7cb7d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a novel physical model of the intracranial system, which was built with the specific purpose of gaining a better insight into the fundamental mechanisms involved in the cerebral circulation. Specifically, the phenomena of passive autoregulation of the blood flow and the variation of the intracranial compliance as a function of the mean intracranial pressure have been investigated. The physical model allows to go beyond state-of-the-art mathematical models that are often based on strong assumptions or simplifications on the physical mechanisms governing the cerebral circulation. Indeed, the physical model based on passive components was able to correctly replicate some fundamental mechanisms of the blood flow autoregulation. In particular, it allows to highlight the role of the venous outflow, which behaves as a Starling resistor. The physical model can be employed as a demonstrator for educational purpose and to test the behavior of shunts for the therapy of hydrocephalus.}
+      \field{annotation}{TLDR: A novel physical model of the intracranial system built with the specific purpose of gaining a better insight into the fundamental mechanisms involved in the cerebral circulation was able to correctly replicate some fundamental mechanisms of the blood flow autoregulation.\\ titleTranslation: 颅内系统的物理模型用于研究脑血流自动调节机制}
+      \field{eventtitle}{{{IEEE Access}}}
+      \field{issn}{2169-3536}
+      \field{journaltitle}{IEEE Access}
+      \field{langid}{american}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{A {{Physical Model}} of the {{Intracranial System}} for the {{Study}} of the {{Mechanisms}} of the {{Cerebral Blood Flow Autoregulation}}}
+      \field{urlday}{26}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{67166\bibrangedash 67175}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2879372
+      \endverb
+      \verb{file}
+      \verb C:\Users\WangCheng\Zotero\storage\RSX5QQB7\Ficola 等 - 2018 - A Physical Model of the Intracranial System for the Study of the Mechanisms of the Cerebral Blood Fl.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/8520862
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/8520862
+      \endverb
+      \keyw{Arteries,Blood,Fluids,intracranial compliance,Intracranial system,passive autoregulation,physical model,Starling resistor,Valves,Veins}
+    \endentry
+    \entry{evansDynamicsBifurcationsLowdimensional2016}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=35c80f2b95a5a13d19a047b92ade8b5e}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9f5d6d6b2ceeb4b0ed94f11fdb6b8b3c}{%
+           family={Drapaca},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4d13e2ac0c511e22f7dde7873211d8f7}{%
+           family={Cusumano},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=0b7833339fd1a769bebe0ffde7db0b78}{%
+           family={Bélair},
+           familyi={B\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12dd9bcbb34719bcc2f32e587d97f42a}{%
+           family={Frigaard},
+           familyi={F\bibinitperiod},
+           given={Ian\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7850d013d70fa5f637a5145a35d626f2}{%
+           family={Kunze},
+           familyi={K\bibinitperiod},
+           given={Herb},
+           giveni={H\bibinitperiod}}}%
+        {{hash=89f839bd20be675e279607b0fa120797}{%
+           family={Makarov},
+           familyi={M\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b4372a61dcdc49626ba922538c5fbeb0}{%
+           family={Melnik},
+           familyi={M\bibinitperiod},
+           given={Roderick},
+           giveni={R\bibinitperiod}}}%
+        {{hash=465175ad121c843f806482f9c2c2f925}{%
+           family={Spiteri},
+           familyi={S\bibinitperiod},
+           given={Raymond\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{namea}{3}{}{%
+        {{hash=35c80f2b95a5a13d19a047b92ade8b5e}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9f5d6d6b2ceeb4b0ed94f11fdb6b8b3c}{%
+           family={Drapaca},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4d13e2ac0c511e22f7dde7873211d8f7}{%
+           family={Cusumano},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{451c599b3e608ef0499f386604edba13}
+      \strng{fullhash}{451c599b3e608ef0499f386604edba13}
+      \strng{bibnamehash}{451c599b3e608ef0499f386604edba13}
+      \strng{authorbibnamehash}{451c599b3e608ef0499f386604edba13}
+      \strng{authornamehash}{451c599b3e608ef0499f386604edba13}
+      \strng{authorfullhash}{451c599b3e608ef0499f386604edba13}
+      \strng{editorbibnamehash}{fc4b2fd4e9523279cdd57ddc9b4c4fcf}
+      \strng{editornamehash}{8dad32241d0837f70717739ba5363840}
+      \strng{editorfullhash}{f0522f3b63a300d44ad82912a3891fe2}
+      \strng{nameabibnamehash}{451c599b3e608ef0499f386604edba13}
+      \strng{nameanamehash}{451c599b3e608ef0499f386604edba13}
+      \strng{nameafullhash}{451c599b3e608ef0499f386604edba13}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Intracranial Pressure (ICP) is a physiological parameter of the brain which plays an important role in the diagnosis and treatment of pathologies such as hydrocephalus and traumatic brain injury. Currently, all reliable methods for ICP monitoring involve drilling through the skull to place a pressure probe inside the brain. As a result, ICP is only measured in the most critical cases which require neurosurgical intervention. Mathematical models that relate ICP to physiological parameters whose measurements are minimally invasive could contribute to better diagnostic and treatment protocols for brain disorders. Ideally, such mathematical models should have the capability to predict ICP in real time from non-invasive measurements of other clinically relevant parameters without the need for high-risk procedures. In this paper, we examine in detail the dynamics and stability of a mathematical model proposed by Ursino and Lodi in (J Appl Physiol 82(4):1256–1269, 1997) which predicts ICP from measurements of arterial blood pressure. We study how the equilibria vary with the model parameters and, aided by numerical simulations, we obtain bifurcation diagrams for the system of non-linear ordinary differential equations. Expanding upon the work of Ursino and Lodi, we show that the model exhibits not only one Hopf bifurcation but also a reverse Hopf bifurcation in certain parameter regimes. In addition, we present global phase portraits of the system in interesting parameter configurations.}
+      \field{annotation}{TLDR: Examining in detail the dynamics and stability of a mathematical model proposed by Ursino and Lodi which predicts ICP from measurements of arterial blood pressure, it is shown that the model exhibits not only one Hopf bifurcation but also a reverse hopf bIfurcation in certain parameter regimes.\\ titleTranslation: 颅内压的低维模型中的动力学与分岔}
+      \field{booktitle}{Mathematical and {{Computational Approaches}} in {{Advancing Modern Science}} and {{Engineering}}}
+      \field{isbn}{978-3-319-30379-6}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Dynamics and Bifurcations in Low-Dimensional Models of Intracranial Pressure}
+      \field{usera}{C}
+      \field{userc}{english}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{223\bibrangedash 232}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/978-3-319-30379-6_21
+      \endverb
+      \verb{file}
+      \verb C:\Users\WangCheng\Zotero\storage\WUHNEV5S\Evans 等 - 2016 - Dynamics and Bifurcations in Low-Dimensional Models of Intracranial Pressure.pdf
+      \endverb
+      \keyw{/unread,⭐⭐⭐⭐⭐,Cerebral Autoregulation,Equilibrium Point,Hopf Bifurcation,Intracranial Pressure,Stable Limit Cycle}
     \endentry
   \enddatalist
 \endrefsection
